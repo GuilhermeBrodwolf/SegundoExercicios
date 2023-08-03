@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//11)
+
+		inteiro a
+		escreva("digite um número A inteiro para dividirmos com B e tirarmos o resto desse cálculo \n")
+		leia(a)
+
+		inteiro b
+		escreva("digite um número B inteiro para dividirmos com A e tirarmos o resto desse cálculo \n")
+		leia(b)
+
+		inteiro c = a / b
+		escreva(c, "\n")
+		
+		inteiro d = c / 3
+		escreva(d, "\n") 
+
+		inteiro f = (d % 3) 
+		escreva(f, "\n")
+	}
+}
